@@ -1,28 +1,28 @@
-# 🎥 Projet de Prédiction de Scoring et Recommandation de Films
+# 🎥 Movie Scoring Prediction and Recommendation Project
 
 ![Netflix Logo](https://upload.wikimedia.org/wikipedia/commons/6/69/Netflix_logo.svg)
 
-Ce projet explore les facteurs influençant les scores et la popularité des films grâce à des techniques de Data Science et Machine Learning. L'objectif est de prédire les scores des films et de développer un système de recommandation personnalisé basé sur la similarité de contenu.
+This project explores the factors influencing movie scores and popularity using Data Science and Machine Learning techniques. The goal is to predict movie scores and develop a personalized recommendation system based on content similarity.
 
 ---
 
-## 🚀 Objectifs
+## 🚀 Objectives
 
-- **Analyse exploratoire des données (EDA)** : Comprendre les tendances des films selon leurs genres, langues et popularité au fil du temps.
-- **Prédiction des scores** : Utiliser des modèles de Machine Learning pour estimer les scores des films.
-- **Recommandation personnalisée** : Construire un système de recommandation basé sur la similarité des descriptions et des genres.
+- **Exploratory Data Analysis (EDA)**: Understand trends in movies based on their genres, languages, and popularity over time.
+- **Score Prediction**: Use Machine Learning models to predict movie scores.
+- **Personalized Recommendation**: Build a recommendation system based on the similarity of descriptions and genres.
 
 ---
 
-## 🛠️ Outils et Technologies
+## 🛠️ Tools and Technologies
 
-- **Langages** : Python
-- **Bibliothèques principales** :
-  - Visualisation : `Matplotlib`, `Seaborn`, `Plotly`
-  - Machine Learning : `Scikit-learn`, `XGBoost`, `LightGBM`, `RandomForest`
-  - Traitement de texte : `TfidfVectorizer`, `CountVectorizer`
-- **Modèles utilisés** :
-  - Régression Linéaire, Ridge, Lasso
+- **Languages**: Python
+- **Main Libraries**:
+  - Visualization: `Matplotlib`, `Seaborn`, `Plotly`
+  - Machine Learning: `Scikit-learn`, `XGBoost`, `LightGBM`, `RandomForest`
+  - Text Processing: `TfidfVectorizer`, `CountVectorizer`
+- **Models Used**:
+  - Linear Regression, Ridge, Lasso
   - Random Forest
   - Gradient Boosting (GBM)
   - LightGBM
@@ -30,47 +30,47 @@ Ce projet explore les facteurs influençant les scores et la popularité des fil
 
 ---
 
-## 📊 Analyse Exploratoire des Données
+## 📊 Exploratory Data Analysis (EDA)
 
-1. **Distribution des notes** : Analyse des scores moyens par genre.
-2. **Popularité et tendances** :
-   - Évolution du nombre de films au fil des décennies.
-   - Impact de la popularité et du nombre de votes sur les scores.
-3. **Analyse des genres** :
-   - Distribution des films par genre et langue.
-   - Corrélation entre les variables (popularité, scores, etc.).
-4. **Nuages de mots** :
-   - Genres principaux.
-   - Descriptions des films.
-
----
-
-## 🤖 Modélisation
-
-### Modèles testés :
-- **Régression Linéaire** : Modèle de base pour capturer les relations linéaires.
-- **Ridge et Lasso** : Régularisation pour éviter le sur-apprentissage.
-- **Forêt Aléatoire** : Modèle non linéaire performant pour des relations complexes.
-- **Gradient Boosting (GBM)** : Capture des relations non linéaires.
-- **XGBoost & LightGBM** : Modèles avancés pour une meilleure précision et rapidité.
-
-### Résultats des modèles (meilleur score) :
-- **LightGBM** :
-  - Mean Squared Error (MSE) : 0.2574
-  - Coefficient de Détermination (R²) : 0.5619
-- **XGBoost** :
-  - MSE : 0.2755
-  - R² : 0.5311
+1. **Score Distribution**: Analyze average scores by genre.
+2. **Popularity and Trends**:
+   - Evolution of movie count over the decades.
+   - Impact of popularity and vote count on movie scores.
+3. **Genre Analysis**:
+   - Distribution of movies by genre and language.
+   - Correlations between variables (popularity, scores, etc.).
+4. **Word Clouds**:
+   - Main genres.
+   - Movie descriptions.
 
 ---
 
-## 🎯 Système de Recommandation
+## 🤖 Modeling
 
-Le système utilise la similarité de contenu basée sur :
-- Les descriptions (`TfidfVectorizer`).
-- Les genres associés aux films (`CountVectorizer`).
+### Models Tested:
+- **Linear Regression**: A baseline model to capture linear relationships.
+- **Ridge and Lasso**: Regularization techniques to avoid overfitting.
+- **Random Forest**: A powerful model for capturing complex non-linear relationships.
+- **Gradient Boosting (GBM)**: Captures non-linear relationships effectively.
+- **XGBoost & LightGBM**: Advanced models for better accuracy and speed.
 
-Exemple de recommandation pour le film _"The Godfather"_ :
+### Model Results (Best Score):
+- **LightGBM**:
+  - Mean Squared Error (MSE): 0.2574
+  - R²: 0.5619
+- **XGBoost**:
+  - MSE: 0.2755
+  - R²: 0.5311
+
+---
+
+## 🎯 Recommendation System
+
+The system uses content similarity based on:
+- Movie descriptions (`TfidfVectorizer`).
+- Associated genres (`CountVectorizer`).
+
+Example recommendations for the movie _"The Godfather"_:
 1. The Godfather
 2. The Godfather: Part II
 3. Blood Ties
@@ -78,17 +78,20 @@ Exemple de recommandation pour le film _"The Godfather"_ :
 5. Bomb City
 
 ---
-## 📌 Instructions d'Installation
 
-1. Clonez le dépôt :
+## 📌 Installation Instructions
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
-   cd votre-projet
-
-## 💬 Merci de votre visite !
-
-J'espère que ce projet vous a plu ! Si vous avez des questions, des suggestions ou simplement envie de discuter, n'hésitez pas à me contacter. Ensemble, continuons à explorer le monde fascinant des données et du Machine Learning !
+   git clone https://github.com/your-username/your-project.git
+   cd your-project
 
 ---
 
-### 🚀 À bientôt pour de nouveaux projets !
+## 💬 Thank you for visiting!
+
+I hope you enjoyed exploring this project! If you have any questions, suggestions, or just want to chat, feel free to reach out. Let's keep exploring the fascinating world of data and machine learning together!
+
+---
+
+### 🚀 See you soon for more projects!
