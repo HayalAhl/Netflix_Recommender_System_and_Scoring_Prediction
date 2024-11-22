@@ -78,8 +78,17 @@ Exemple de recommandation pour le film _"The Godfather"_ :
 5. Bomb City
 
 ---
+## 📌 Instructions d'Installation
 
-## 📂 Structure du Projet
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/votre-utilisateur/votre-projet.git
+   cd votre-projet
 
-Voici l'arborescence du projet :
+## 💬 Merci de votre visite !
 
+J'espère que ce projet vous a plu ! Si vous avez des questions, des suggestions ou simplement envie de discuter, n'hésitez pas à me contacter. Ensemble, continuons à explorer le monde fascinant des données et du Machine Learning !
+
+---
+
+### 🚀 À bientôt pour de nouveaux projets !
