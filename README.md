@@ -79,14 +79,6 @@ Example recommendations for the movie _"The Godfather"_:
 
 ---
 
-## 📌 Installation Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-project.git
-   cd your-project
-
----
 
 ## 💬 Thank you for visiting!
 
